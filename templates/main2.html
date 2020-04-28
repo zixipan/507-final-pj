@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link href="static/css/mystyle.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Sina Weibo Hot Topic</h1>
+        </div>
+
+        <div id="nav">
+            <form name="submit" action="/" method="post">
+                <button name="submit_button" type="submit" class="button" value="topic_button">Topic</button> <br></br>
+                <input name="topic_submit" type="text" value="0" /><br></br>
+                <button name="submit_button" type="submit" class="button" value="content_button">Content</button> <br></br>
+                <input name="content_submit" type="text" value="0" /><br></br>
+                <button name="submit_button" type="submit" class="button" value="comment_button">Comment</button> <br></br>
+            </form>
+        </div>
+
+        <div id="draw">
+            <form name="submit" action="/" method="post">
+                <input name="topic_follow" type="text" value="0" />topic_number<br></br>
+                <input name="follow_time" type="text" value="0" />follow_time(m)<br></br>
+                <select name="select">
+                  <option value ="Hot Bar">Hot Bar</option>
+                    <option value ="Word Cloud">Word Cloud</option>
+                    <option value="Hot Line">Hot Line</option>
+                </select> 
+                <button name="submit_button" type="submit" class="button" value="draw_button">Draw</button> <br></br>
+            </form>
+        </div>
+
+        <div id="login">
+            <form name="submit" action="/" method="post">
+                <button name="submit_button" type="submit" class="button" value="login">Login</button> <br></br>
+            </form>
+        </div>
+
+        <div id="section">
+            <p>
+                {% block main_box%}
+                {% endblock %}
+            </p>
+        </div>
+
+        <div id="footer">
+            {{ uid }}
+        </div>
+    </body>
+</html>

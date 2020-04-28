@@ -1,0 +1,8 @@
+{% extends "main.html" %}
+{% block main_box %}
+    {% for text in comment %}
+                <tr>
+                <td>{{ text }}<br></br></td>
+                </tr>
+            {% endfor %}
+{% endblock %}

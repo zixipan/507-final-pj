@@ -1,0 +1,72 @@
+#header {
+    background-color:#F08080;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif; 
+    margin: 0;
+    padding: 0;
+    font-size: 16pt; 
+    background-color: #ffe4e1;
+    min-height: 100px; 
+}
+
+#nav {
+    background-color:white;
+    height:25px;
+    width:40px;
+    padding-top:5px;
+    margin-top:10px;	      
+}
+
+p {
+    padding: 0 30px;
+}
+
+#nav{
+    margin-top: 60px;
+}
+
+
+.button {
+    background-color: black;
+    margin-left: 20px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    width: 90px;
+}
+
+input{
+    margin-left: 20px;
+}
+select{
+    margin-left: 20px;
+}
+#draw{
+    margin-top: 300px;
+}
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+
+#section {
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding: 5px;
+    text-align: center;		 
+}
+#footer{
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

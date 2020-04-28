@@ -1,0 +1,8 @@
+{% extends "main.html" %}
+{% block main_box %}
+    {% for data in content %}
+                <tr>
+                <td>{{ data }}<br></br></td>
+                </tr>
+            {% endfor %}
+{% endblock %}
